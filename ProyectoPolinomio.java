@@ -19,7 +19,7 @@ public class ProyectoPolinomio {
         //Solo funciona con una X y su exponente, si es 1 se puede omitir
         String polinomio = "33x^4+2x^2+x+7";
         String polinomio2 = "8x^5+5x^2+x";
-        
+
         //
         //
         //CREANDO POLINOMIO FORMA 1//
@@ -80,6 +80,10 @@ public class ProyectoPolinomio {
         System.out.print("\n>>> Pol 2: \n");
         polDosLista.mostrarPolLista();
 
+        System.out.println("\n===============================================\n");
+
+        System.out.println("Multiplicacion de P1 con P2 salida Lista");
+        Metodos.multiplicarPolvF1conPolvF2(Polinomio2.getPolinomio(), Polinomio.getPolinomioF2());
     }
 
 }
